@@ -975,7 +975,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
                 L"• Полная автономность без внешних файлов",
                 L"О программе ByeByeDPI", MB_ICONINFORMATION | MB_OK);
         } else if (id == IDM_HELP_DOCS) {
-            ShellExecuteW(hwnd, L"open", L"https://github.com", NULL, NULL, SW_SHOW);
+            ShellExecuteW(hwnd, L"open", L"https://github.com/Jwachka1337/ByeByeDPI/", NULL, NULL, SW_SHOW);
         } else if (id == ID_TRAY_SHOW) {
             ShowWindow(hwnd, SW_RESTORE);
             SetForegroundWindow(hwnd);
