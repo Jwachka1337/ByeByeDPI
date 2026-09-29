@@ -2,7 +2,7 @@
 
 Нативная утилита обхода систем глубокого анализа пакетов (DPI) для Windows на базе драйвера фильтрации сетевого уровня WinDivert.
 
-Проект изначально спроектирован под Windows: чистый C++20, срезы памяти `std::span` без лишних аллокаций, потоковый пул воркеров под число ядер процессора и встроенный Win32 GUI со сворачиванием в трей.
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest_Release-2ea44f?style=for-the-badge&logo=github)](https://github.com/Jwachka1337/ByeByeDPI/releases/tag/1.0)
 
 ## Архитектурные особенности и ключевые механизмы
 
